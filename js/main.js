@@ -1,13 +1,16 @@
 const inputEmail = document.getElementById('exampleInputEmail1').value;
-const inputPassword = document.getElementById('exampleInputPassword1').value;
+const inputPassword = document.getElementById('InputPassword');
 const btn = document.getElementById ('btn');
 
  
-let validate = () => {
-  if (inputPassword === NaN){
-    inputPassword.innerHTML="Enter numeric value only";
-    return false;
-  }else{
-    return true;
+
+  function validatePassword(){
+    if(inputPassword.value != /^[0-9]+$/) {
+      contraseña.setCustomValidity("Passwords Don't Match");
+    } else {
+      contraseña.setCustomValidity('');
     }
   }
+  
+  inputPassword.onchange = validatePassword;
+  contraseña.onkeyup = validatePassword;
