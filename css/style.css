@@ -36,3 +36,22 @@ p{
   border-color: #F6A800;
 }
 
+.ppalMenu {
+  background-color: #F6A800;
+  color: white;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 40%;
+}
+
+#menuBody {
+  background-color: rgb(223, 213, 213);
+}
+
+.p-4 {
+  background-color: white;
+}
+
+.nav-link {
+  color: black;
+}
