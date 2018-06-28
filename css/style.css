@@ -55,3 +55,14 @@ p{
 .nav-link {
   color: black;
 }
+
+#userImg {
+  width: 15%;
+  margin-top: 5%;
+  background-color: #F6A800;
+}
+
+.rowUserimg {
+  background-color: #F6A800;
+  width: 100%;
+}

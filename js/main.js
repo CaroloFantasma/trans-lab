@@ -1,16 +1,12 @@
-const inputEmail = document.getElementById('exampleInputEmail1').value;
-const inputPassword = document.getElementById('InputPassword');
+const inputEmail = document.getElementById('exampleInputEmail1');
+const inputPassword = document.getElementById('InputPassword').value;
 const btn = document.getElementById ('btn');
-
  
 
-  function validatePassword(){
-    if(inputPassword.value != /^[0-9]+$/) {
-      contraseña.setCustomValidity("Passwords Don't Match");
+  btn.addEventListener('click', () => {
+    if (inputPassword === /^[0-9]+$/ || inputPassword.length <= 8 ) {
+    window.open('menu.html');
     } else {
-      contraseña.setCustomValidity('');
+    document.getElementById('wrong').innerHTML= 'Excede el número de digitos.';
     }
-  }
-  
-  inputPassword.onchange = validatePassword;
-  contraseña.onkeyup = validatePassword;
+    });
