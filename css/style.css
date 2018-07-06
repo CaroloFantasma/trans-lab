@@ -58,11 +58,48 @@ p{
 
 #userImg {
   width: 15%;
-  margin-top: 5%;
   background-color: #F6A800;
 }
 
 .rowUserimg {
   background-color: #F6A800;
   width: 100%;
+  height: 60%;
+  padding: 0%;
+}
+
+.rowUserimg2 {
+height: 80%;
+padding: 0%;
+}
+
+.userName {
+  width: 45%;
+  margin-top: 3%;
+  margin-left: 30%;
+}
+
+.cardNumber {
+  width: 45%;
+  margin-top: 3%;
+  border: none;
+  margin-left: 30%;
+  background-color: rgb(223, 213, 213);
+}
+
+#btnCard {
+  background-color: #F6A800;
+  color: white;
+  width: 45%;
+  margin-top: 3%;
+  margin-left: 30%;
+}
+
+.menuUser {
+  padding: 0%;
+}
+
+.calculateOptions {
+  width: 50%;
+  margin-top: 10%;
 }
